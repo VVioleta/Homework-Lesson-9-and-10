@@ -1,0 +1,13 @@
+ninja_file = open("ninja.txt","r")
+
+print(ninja_file.read())
+
+vsebina = ninja_file.read()
+print(vsebina)
+
+# obvezno zapiranje datoteke
+ninja_file.close()
+
+with open("ninja.txt","r) as ninja_file:
+content = ninja_file.read()
+print(content)
